@@ -41,7 +41,7 @@ cognitoUserPoolDomain:
   Type: AWS::Cognito::UserPoolDomain
   Properties:
     UserPoolId: !Ref cognitoUserPool
-    Domain: mynotesmuddbhq-TestEnv
+    Domain: mynotesmuddbhq-testenv
 
 # Application parameters
 userPoolArnParam:
